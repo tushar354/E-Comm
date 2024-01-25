@@ -1,0 +1,67 @@
+.newsletter {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 80px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+}
+
+.newsletter h1 {
+    color: #000; /* Set text color to black */
+    font-size: 36px; /* Reduced font size */
+    font-weight: 700;
+    text-align: center;
+}
+
+.newsletter p {
+    color: #000; /* Set text color to black */
+    font-size: 16px; /* Reduced font size */
+    text-align: center;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    max-width: 600px;
+    height: 50px; /* Reduced height */
+    border-radius: 25px; /* Adjusted border radius */
+    border: 1px solid white;
+    padding: 0 15px; /* Reduced padding */
+}
+
+.newsletter input {
+    flex: 1;
+    width: 100%;
+    margin-left: 15px; /* Reduced left margin */
+    border: none;
+    outline: none;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.newsletter div button {
+    width: 140px; /* Reduced button width */
+    height: 100%;
+    border-radius: 25px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s; /* Added transition effect */
+}
+
+.newsletter div button:hover {
+    background: #333; /* Darkened background on hover */
+    color: white; /* Set text color to white on hover */
+}

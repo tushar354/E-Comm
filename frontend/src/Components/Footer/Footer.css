@@ -1,0 +1,84 @@
+/* Footer Container */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    /* Improved readability and spacing for better structure */
+  }
+  
+  /* Logo Section */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Reorganized for clarity and consistency */
+  }
+  
+  .footer-logo p {
+    color: #555;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    /* Enhanced readability and removed unnecessary properties */
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #333;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    /* Aligned list items for better spacing */
+  }
+  
+  .footer-links li {
+    cursor: pointer;
+    /* Cleaned up unnecessary code */
+  }
+  
+  /* Social Icons */
+  .footer-social-icon {
+    display: flex;
+    gap: 20px;
+    /* Simplified and streamlined for consistency */
+  }
+  
+  .footer-icons-container {
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /* Enhanced consistency and removed redundant styles */
+  }
+  
+  /* Copyright Section */
+  .footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 1.6rem;
+    /* Improved alignment and consistent sizing */
+  }
+  
+  .footer-copyright hr {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #fff;
+    margin: 0;
+    /* Refined styling and formatting */
+  }
+  

@@ -1,0 +1,65 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+
+.hero-left { /* Changed from .hero_left to .hero-left */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1; /* Changed line-height value to 1 for better readability */
+}
+
+.hero-left h2 { /* Fixed the selector to target the h2 element within .hero-left */
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p { /* Targeting all p elements within .hero-left */
+    color: black;
+    font-size: 50px; /* Reduced font size for paragraphs */
+    font-weight: 700; /* Changed font-weight to 400 for regular weight */
+}
+
+.hand-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hand-hand-icon img {
+    width: 105px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 50px; /* Reduced button height for better proportions */
+    border-radius: 25px; /* Reduced border radius for a more subtle effect */
+    margin-top: 30px;
+    background: red;
+    color: white;
+    font-size: 20px; /* Slightly reduced font size */
+    font-weight: 500;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-right img{
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+}

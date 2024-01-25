@@ -1,0 +1,83 @@
+.offers {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  }
+  
+  .offers-left,
+  .offers-right {
+    flex: 1;
+    display: flex;
+  }
+  
+  .offers-left {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .offers-left h1,
+  .offers-left p {
+    color: black;
+    font-weight: 600;
+  }
+  
+  .offers-left h1 {
+    font-size: 2.5rem;
+  }
+  
+  .offers-left p {
+    /* font-size: 1.8rem; */
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .offers-left button {
+    width: 162px;
+    height: 48px;
+    border-radius: 32px;
+    background: #fb4a4a;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 9px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .offers-left button:hover {
+    background: darkred;
+  }
+  
+  .offers-right {
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+  }
+  
+  .offers-right img {
+    max-width: 70%; /* Set a maximum width for the image */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .offers {
+      width: 80%;
+      padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .offers-left button {
+      width: 100%; /* Make the button full width on smaller screens */
+      max-width: 200px; /* Limit the button's max width */
+    }
+  
+    .offers-right img {
+      max-width: 100%; /* Make the image fill the container on smaller screens */
+    }
+  }
+  

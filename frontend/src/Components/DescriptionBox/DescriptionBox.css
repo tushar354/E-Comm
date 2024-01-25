@@ -1,0 +1,54 @@
+.descriptionbox {
+    margin: 80px 150px; /* Slightly adjusted margin */
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    gap: 20px; /* Adjusted gap between navigation boxes */
+  }
+  
+  .discription-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid rgb(245, 245, 245);
+    cursor: pointer; /* Added cursor pointer for interaction */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .discription-nav-box.fade {
+    background: white;
+    color: gray;
+  }
+  
+  .discription-nav-box:hover {
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Added shadow on hover */
+  }
+  
+  .descriptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #eee; /* Adjusted border color */
+    padding: 30px; /* Reduced padding */
+    padding-bottom: 50px; /* Adjusted bottom padding */
+    background-color: #fff; /* Added background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .descriptionbox-description p {
+    line-height: 1.6; /* Improved line height for readability */
+  }
+  
+  .descriptionbox-description:hover {
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Added shadow on hover */
+  }
+  
